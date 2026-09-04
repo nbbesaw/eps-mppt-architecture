@@ -1,0 +1,79 @@
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~
+$ git config --global user.name "Nolan Besaw"
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~
+$ git config --global user.email "nbbesaw@mtu.edu"
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~
+$ cd Documents
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~/Documents
+$ git clone https://github.com/nbbesaw/eps-mppt-architecture.git
+Cloning into 'eps-mppt-architecture'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~/Documents
+$ cd Senior Design EPS
+bash: cd: too many arguments
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~/Documents
+$ ls
+'My Music'@  'My Pictures'@  'My Videos'@   eps-mppt-architecture/
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~/Documents
+$ cd eps-mppt-architecture
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~/Documents/eps-mppt-architecture (main)
+$ mkdir -p docs mppt simulation/ltspice simulation/waveforms schematics/subcircuits
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~/Documents/eps-mppt-architecture (main)
+$ cat << 'EOF' > .gitignore
+>
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~
+$ git config --global user.name "Nolan Besaw"
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~
+$ git config --global user.email "nbbesaw@mtu.edu"
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~
+$ cd Documents
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~/Documents
+$ git clone https://github.com/nbbesaw/eps-mppt-architecture.git
+Cloning into 'eps-mppt-architecture'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~/Documents
+$ cd Senior Design EPS
+bash: cd: too many arguments
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~/Documents
+$ ls
+'My Music'@  'My Pictures'@  'My Videos'@   eps-mppt-architecture/
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~/Documents
+$ cd eps-mppt-architecture
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~/Documents/eps-mppt-architecture (main)
+$ mkdir -p docs mppt simulation/ltspice simulation/waveforms schematics/subcircuits
+
+Owner@DESKTOP-3MCMC3L MINGW64 ~/Documents/eps-mppt-architecture (main)
+$ cat << 'EOF' > .gitignore
+>
+*.raw
+*.log
+*.op.raw
+*.fft
+
+.DS_Store
+Thumbs.db
